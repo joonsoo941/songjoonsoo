@@ -1,0 +1,118 @@
+/******************
+ *****Intro*****
+ ******************/
+#intro .introWrap .seed1 {
+    animation: spinSeed1 1500ms linear infinite alternate;
+    -webkit-animation: spinSeed1 1500ms linear infinite alternate;
+    -moz-animation: spinSeed1 1500ms linear infinite alternate;
+}
+@keyframes spinSeed1 {
+    from {transform: rotate(-10deg);}
+    to {transform: rotate(15deg);}
+}
+@-webkit-keyframes spinSeed1 {
+    from {transform: rotate(-10deg);}
+    to {transform: rotate(15deg);}
+}
+@-moz-keyframes spinSeed1 {
+    from {transform: rotate(-10deg);}
+    to {transform: rotate(15deg);}
+}
+
+#intro .introWrap .seed2 {
+    animation: spinSeed2 1500ms linear infinite alternate;
+    -webkit-animation: spinSeed2 1500ms linear infinite alternate;
+    -moz-animation: spinSeed2 1500ms linear infinite alternate;
+}
+@keyframes spinSeed2 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+@-webkit-keyframes spinSeed2 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+@-moz-keyframes spinSeed2 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+
+#intro .introWrap .seed3 {
+    animation: spinSeed4 1500ms linear infinite alternate;
+    -webkit-animation: spinSeed4 1500ms linear infinite alternate;
+    -moz-animation: spinSeed4 1500ms linear infinite alternate;
+}
+@keyframes spinSeed3 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+@-webkit-keyframes spinSeed3 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+@-moz-keyframes spinSeed3 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+
+#intro .introWrap .seed4 {
+    /*-moz-animation: spinSeed4 1500ms linear infinite alternate;*/
+    -webkit-animation: spinSeed4 1500ms linear infinite alternate;
+    animation: spinSeed4 1500ms linear infinite alternate;
+}
+@keyframes spinSeed4 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+@-webkit-keyframes spinSeed4 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+@-moz-keyframes spinSeed4 {
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
+}
+#intro .introWrap .up {
+  -moz-animation-name: upMove;
+  -moz-animation-duration: 4000ms;
+  -moz-animation-fill-mode: forwards;
+  -moz-animation-timing-function: linear;
+  -moz-animation-iteration-count: infinite;
+ 
+
+  -webkit-animation-name: upMove;
+  -webkit-animation-duration: 4000ms;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+
+
+  animation-name: upMove;
+  animation-duration: 4000ms;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+@-moz-keyframes upMove {
+  0% {-moz-transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
+  25% {-moz-transform:translate(186px, -3px) scale(1) translate(-50%, -50%) rotate(90deg);}
+  50% {-moz-transform:translate(65px, -192px) scale(1) translate(-50%, -50%) rotate(0deg);}
+  75% {-moz-transform:translate(186px, -2px) scale(1) translate(-50%, -50%) rotate(-90deg);}
+  100% {-moz-transform:translate(1px, 2px) scale(1) translate(-50%, -50%);}
+}
+@-webkit-keyframes upMove {
+  0% {-webkit-transform:translate(0px, 0px) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) translate(-50%, -50%);}
+  25% {-webkit-transform:translate(186px, -3px) scale(1) translate(-50%, -50%) rotate(90deg);}
+  50% {-webkit-transform:translate(65px, -192px) scale(1) translate(-50%, -50%) rotate(0deg);}
+  75% {-webkit-transform:translate(186px, -2px) scale(1) translate(-50%, -50%) rotate(-90deg);}
+  100% {-webkit-transform:translate(1px, 2px) scale(1) translate(-50%, -50%);}
+}
+@keyframes upMove {
+  0% {transform:translate(0px, 0px) scale(1) translate(-50%, -50%);}
+  25% {transform:translate(186px, -3px) scale(1) translate(-50%, -50%) rotate(90deg);}
+  50% {transform:translate(65px, -192px) scale(1) translate(-50%, -50%) rotate(0deg);}
+  75% {transform:translate(186px, -2px) scale(1) translate(-50%, -50%) rotate(-90deg);}
+  100% {transform:translate(1px, 2px) scale(1) translate(-50%, -50%);}
+}
+
